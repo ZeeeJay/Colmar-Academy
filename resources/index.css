@@ -1,0 +1,814 @@
+/* Universal Styles */
+
+html {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  color: #212121;
+}
+
+body {
+  display: flex;
+  background-color: white;
+  height: 1054px;
+  width: 1200px;
+  padding: 0 0;
+  margin: 0 0;
+  vertical-align: center;
+}
+
+/* Header */
+
+header{
+  display: flex;
+  align-items: center;
+  align-content: center;
+  height: 64px;
+  width: 1200px;
+  margin-top: 4px;
+  margin-right: 24px;
+  margin-left: 24px;
+}
+
+header.headerlogo{
+  height: 4rem;
+  width: auto;
+}
+
+img {
+  height: 4rem;
+  width: auto;
+}
+
+header .colmar {
+  font-size: 2rem;
+  font-weight: bold;
+  width: auto;
+}
+
+header .academy {
+  font-size: 2rem;
+  opacity: .5;
+  flex-grow: 1;
+  width: auto;
+}
+
+#headernavigation {
+  display: flex;
+  width: auto;
+  padding-right: 0.5rem;
+  align-items: center;
+}
+
+#headernavigation li {
+  display: inline;
+}
+
+#headernavigation li a{
+  color: #212121;
+  text-decoration: none;
+  margin-left: 1rem;
+}
+
+/* Learn Section */
+
+#learnsection {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  margin-top: 63px;
+  background-color: lightgray;
+  width: 1200px;
+}
+
+#learnsection .bannerimage {
+  width: 60%;
+  margin: 32px 24px;
+}
+
+#learnsection .bannerimage img {
+  display: block;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
+
+#learnsection .learnsomething {
+  position: inline-flex;
+  height: 12%;
+  width: 40%;
+  margin-top: 10rem;
+}
+
+#learnsection .learnsomething h1{
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+#learnsection .learnsomething h3 {
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+#learnsection .startherebutton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #212121;
+  opacity: 0.85;
+  height: 32px;
+  width: 347px;
+}
+
+#learnsection .startherebutton span a{
+  color: white;
+  font-weight: 600;
+  text-align: center;
+  text-decoration: none;
+}
+
+#learnsection .startherebutton:hover {
+  background-color: red;
+  box-shadow: 0 20x 4ox rgba(0, 0, 0, .5);
+  transition: background-color 200ms ease-in;
+}
+
+#learnsection .startherebutton:active {
+  background-color: green;
+  transition: background-color 0s linear;
+}
+
+/* Practice Section */
+
+#practicesection {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  background-color: white;
+  margin-top: 40rem;
+  height: 35rem;
+  width: 1200px;
+}
+
+#practicesection .practiceimage {
+  width: 58%;
+  height: 68%;
+  margin: 32px 24px;
+}
+
+#practicesection .practiceimage img {
+  display: block;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+#practicesection .hurt {
+  margin-left: 24px;
+}
+
+#practicesection .hurt h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 24px;
+}
+
+#practicesection .hurt p {
+  margin-bottom: 2rem;
+  opacity: 0.5;
+}
+
+#practicesection .hurt span {
+    font-weight: bold;
+}
+
+#practicesection .info {
+  display: flex;
+  margin-top: 32px;
+  margin-left: 50px;
+  width: 35%;
+}
+
+#practicesection .info .infoimages {
+  display: block;
+  width: 35%;
+}
+
+
+#practicesection .info .infoimages img{
+  display: block;
+  position: relative;
+  overflow: hidden;
+  height: auto;
+  width: 100%;
+  padding-bottom: 32px;
+}
+
+#practicesection .info .infolinks {
+  display: block;
+  margin-left: 16px;
+  width: 65%;
+}
+
+#practicesection .info .infolinks .date {
+  display: block;
+  position: relative;
+  height: 26.75%;
+  width: 100%;
+  margin-bottom: 32px;
+}
+
+#practicesection .info .infolinks .campus {
+  display: block;
+  position: relative;
+  height: 26.75%;
+  width: 100%;
+  margin-top: 16px;
+  margin-bottom: 32px;
+}
+
+#practicesection .info .infolinks .guestlectures {
+  display: block;
+  position: relative;
+  height: 26.75%;
+  width: 100%;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+#practicesection .info .infolinks .date h3 {
+  font-weight: 600;
+  padding-top: 1.75rem;
+  padding-bottom: 1rem;
+}
+
+#practicesection .info .infolinks .campus h3 {
+  font-weight: 600;
+  padding-top: 1.75rem;
+  padding-bottom: 1rem;
+}
+
+#practicesection .info .infolinks .guestlectures h3 {
+  font-weight: 600;
+  padding-top: 1.5rem;
+  padding-bottom: 1rem;
+}
+
+#practicesection .info .infolinks .date p {
+  opacity: 0.5;
+  padding-bottom: 1rem;
+}
+
+#practicesection .info .infolinks .campus p {
+  opacity: 0.5;
+  padding-bottom: 1rem;
+}
+
+#practicesection .info .infolinks .guestlectures p {
+  opacity: 0.5;
+  padding-bottom: 1rem;
+  line-height: 1rem;
+}
+
+#practicesection .info .infolinks .date a {
+  text-decoration: none;
+}
+
+#practicesection .info .infolinks .campus a {
+  text-decoration: none;
+}
+
+#practicesection .info .infolinks .guestlectures a {
+  text-decoration: none;
+}
+/* Courses Section */
+
+#courses {
+  display: flex;
+  position: absolute;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 80rem;
+  height: 50rem;
+  width: 1200px;
+  background-color: lightgray;
+}
+
+#courses h1 {
+  display: block;
+  font-size: 2rem;
+  font-weight: bold;
+  height: 2rem;
+  width: 100%;
+  text-align: center;
+  padding-top: 32px;
+}
+
+#courses h3 {
+  font-weight: 600;
+  margin-left: 16px;
+  padding-bottom: 1rem;
+}
+
+#courses h4 {
+  margin-left: 16px;
+  padding-bottom: 8px;
+  opacity: 0.5;
+}
+
+#courses p {
+  margin-left: 16px;
+  line-height: 150%;
+  opacity: 0.5;
+}
+
+#courses img {
+  height: auto;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+#courses .software {
+  background-color: white;
+  height: 40%;
+  width: 25%;
+  margin-left: 72px;
+  margin-right: 32px;
+  padding-top: 0px;
+}
+
+#courses .computerart {
+  background-color: white;
+  height: 40%;
+  width: 25%;
+  margin-right: 32px;
+  padding-top: 0px;
+}
+
+#courses .design {
+  background-color: white;
+  height: 40%;
+  width: 25%;
+  margin-right: 72px;
+  padding-top: 0px;
+}
+
+#courses .data {
+  background-color: white;
+  height: 40%;
+  width: 25%;
+  margin-left: 72px;
+  margin-right: 32px;
+  padding-top: 0px;
+}
+
+#courses .business {
+  background-color: white;
+  height: 40%;
+  width: 25%;
+  margin-right: 32px;
+  padding-top: 0px;
+}
+
+#courses .marketing {
+  background-color: white;
+  height: 40%;
+  width: 25%;
+  margin-right: 72px;
+  padding-top: 0px;
+}
+
+/* Thesis Section */
+
+#thesissection {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  flex-wrap: wrap;
+  background-color: white;
+  margin-top: 130rem;
+  margin-bottom: 2rem;
+  height: 35rem;
+  width: 1200px;
+}
+#thesissection h1 {
+    display: block;
+    font-size: 2rem;
+    font-weight: bold;
+    height: 2rem;
+    width: 100%;
+    text-align: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+
+
+#thesissection .reimaginevideo {
+  width: 58%;
+  height: 68%;
+}
+
+#thesissection .reimaginevideo video{
+  display: block;
+  height: 100%;
+  width: 100%;
+  margin: 0px 0px 24px 18px;
+}
+
+#thesissection .reimaginevideo .reimaginetext {
+  margin-left: 24px;
+}
+
+#thesissection .reimaginevideo .reimaginetext h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+#thesissection .reimaginevideo .reimaginetext p {
+  margin-bottom: 2rem;
+  opacity: 0.5;
+}
+
+#thesissection .exhibitinfo {
+  display: flex;
+  margin-left: 40px;
+  width: 35%;
+}
+
+#thesissection .exhibitinfo .exhibitinfoimages {
+  display: block;
+  width: 35%;
+}
+
+#thesissection .exhibitinfo .exhibitinfoimages img {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  height: auto;
+  width: 100%;
+  padding-bottom: 32px;
+}
+
+#thesissection .exhibitinfo .exhibitinfolinks {
+  display: block;
+  margin-left: 16px;
+  width: 65%;
+}
+
+#thesissection .exhibitinfo .exhibitinfolinks .fisma{
+  display: block;
+  position: relative;
+  height: 26.75%;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 32px;
+}
+
+#thesissection .exhibitinfo .exhibitinfolinks .nowandthen {
+  display: block;
+  position: relative;
+  height: 26.75%;
+  width: 100%;
+  margin-top: 70px;
+  margin-bottom: 32px;
+}
+
+#thesissection .exhibitinfo .exhibitinfolinks .fisma h3 {
+  font-weight: 600;
+  line-height: 1.5rem;
+}
+
+#thesissection .exhibitinfo .exhibitinfolinks .nowandthen h3 {
+  font-weight: 600;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+
+#thesissection .exhibitinfo .exhibitinfolinks .fisma p {
+  line-height: 1.5;
+  opacity: 0.5;
+}
+
+#thesissection .exhibitinfo .exhibitinfolinks .nowandthen p {
+  opacity: 0.5;
+}
+
+/* Footer */
+
+footer {
+display: flex;
+align-items: center;
+align-content: center;
+justify-content: space-between;
+height: 64px;
+width: 1200px;
+margin-top: 7rem;
+margin-right: 24px;
+margin-left: 24px;
+opacity: 0.5;
+}
+
+footer span {
+  flex-direction: row;
+}
+ footer .socialmedia {
+   display: flex;
+   width: 150px;
+ }
+
+ footer .socialmedia a i {
+   margin-right: 5px;
+   margin-left: 5px;
+   text-decoration: none;
+   color: gray;
+ }
+
+
+footer .termspriv {
+  display: flex;
+  width: auto;
+  padding-right: 0.5rem;
+}
+
+footer .termspriv li {
+  display: inline;
+}
+
+footer .termspriv li a{
+  color: #212121;
+  text-decoration: none;
+  margin-left: 1rem;
+}
+
+/* Media Queries start here */
+
+@media only screen and (min-width: 480px) {
+    .body {
+      height:2000px;
+      width: 480px;
+      display: flex;
+      flex-direction: column;
+      margin: 0;
+  }
+}
+
+/* Media Queries for all sections start here*/
+
+@media only screen and (max-width: 480px) {
+   header .headerlogo, .colmar, .academy, nav {
+      display: none;
+    }
+
+    header #headernavigation {
+      align-items: center;
+      justify-content: space-between;
+      height: 64px;
+      width: 440px;
+    }
+
+
+   header #headernavigation a img{
+     align-items: center;
+     visibility: show;
+     height: 100%;
+     width: 100%;
+   }
+
+   #learnsection {
+     display: flex;
+     flex-direction: column;
+     position: absolute;
+     margin-top: 64px;
+     background-color: lightgray;
+     height: 669px;
+     width: 480px;
+   }
+
+   #learnsection .bannerimage {
+     height: 356px;
+     width:480px;
+     margin: 0 0;
+   }
+
+   #learnsection .bannerimage img {
+     display: block;
+     background-size: cover;
+     background-repeat: no-repeat;
+     height: 100%;
+     width: 100%;
+   }
+
+   #learnsection .learnsomething {
+     position: relative;
+     height: 12%;
+     width: 100%;
+     margin-top: 32px;
+     margin-left: 16px;
+   }
+
+   #learnsection .learnsomething h1{
+     font-weight: bold;
+     font-size: 2rem;
+     line-height: 1.25;
+     margin-bottom: 32px;
+   }
+
+   #learnsection .learnsomething h3 {
+     margin-top: 24px;
+     font-weight: bold;
+     line-height: 1.5;
+   }
+
+   #learnsection .startherebutton {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background-color: #212121;
+     opacity: 0.85;
+     height: 40px;
+     width: 300px;
+   }
+
+   #practicesection {
+     margin-top: 733px;
+     height: 927px;
+     width: 480px;
+   }
+
+   #practicesection .practiceimage, .hurt {
+     display: none;
+   }
+
+   #practicesection .info .infoimages img{
+     display: none;
+   }
+
+   #practicesection .info .infoimages {
+     display: none;
+   }
+
+   #practicesection .info {
+     position: relative;
+     height: 1000px;
+     width: 480px;
+     margin-left: 16px;
+     margin-right: 16px;
+   }
+
+   #practicesection .info .mobileimages {
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     width: 480px;
+   }
+
+   #practicesection .info .mobileimages img {
+     height: 189px;
+     width: 400px;
+   }
+
+   #practicesection .info .mobileimages h3 {
+     font-weight: 600;
+     margin: 20px 0px 16px 16px;
+   }
+
+   #practicesection .info .mobileimages p {
+     line-height: 1.5;
+     margin: 5px 0px 16px 16px;
+   }
+
+   #practicesection .info .mobileimages a {
+     margin: 5px 0px 16px 16px;
+     text-decoration: none;
+   }
+
+
+   #practicesection .info .infolinks {
+     display: none;
+   }
+
+   #courses {
+     display: none;
+   }
+
+   #coursesmobile {
+     display: flex;
+     position: absolute;
+     flex-direction: column;
+     margin-top: 1785px;
+     margin-bottom: 32px;
+     visibility: visible;
+     height: 536px;
+     width: 480px;
+     text-decoration: none;
+   }
+
+   #coursesmobile h1 {
+     display: block;
+     font-size: 1.5rem;
+     font-weight: bold;
+     height: 56px;
+     width: 400px;
+     margin: 32px 0px 16px 16px;
+     text-align: center;
+     align-items: center;
+     text-decoration: none;
+   }
+
+   #coursesmobile a span{
+     display: block;
+     align-items: center;
+     font-size: 1.25rem;
+     font-weight: bold;
+     padding: 16px 0px 24px 16px;
+     color: #212121;
+     background-color: lightgray;
+     height: 56px;
+     width: 400px;
+     margin: 4px 16px;
+     text-decoration: none;
+   }
+
+   #coursesmobile a span:hover {
+     background-color: red;
+     text-decoration: none;
+     box-shadow: 0 20x 4ox rgba(0, 0, 0, .5);
+     transition: background-color 200ms ease-in;
+   }
+
+   #coursesmobile a span:active {
+     background-color: green;
+     text-decoration: none;
+     transition: background-color 0s linear;
+   }
+
+   #thesissection {
+     display: flex;
+     margin-top: 2500px;
+     height:550px;
+   }
+
+   .reimaginetext {
+    display: none;
+    }
+
+  #thesissection h1 {
+    display: block;
+    font-size: 1.5rem;
+    font-weight: bold;
+    height: 56px;
+    width: 400px;
+    margin: 0px 16px 0px 16px;
+    text-align: center;
+    align-items: center;
+    padding-bottom: 16px;
+  }
+
+  #thesissection .reimaginevideo {
+    display: block;
+    position: absolute;
+    margin-top: 36px;
+    width: 35%;
+    height: 50%%;
+  }
+
+  #thesissection .exhibitinfo {
+    display: none;
+  }
+
+  footer {
+    display: flex;
+    position: absolute;
+    margin-top: 500px;
+    margin-right: 16px;
+    align-items: flex-start;
+    line-height: 1.5;
+    width: 480px;
+  }
+
+  footer span {
+    height: auto;
+    width: 200px;
+    flex-wrap: wrap;
+    margin-right: 40px;
+  }
+
+}
+
+@media only screen and (min-width: 480px) {
+   header #headernavigation img {
+     visibility: hidden;
+    }
+
+  #practicesection .info .mobileimages {
+      display: none;
+    }
+
+  #coursesmobile {
+      display: none;
+    }
+
+} /*<--This is the ending curly for all media queries*/
